@@ -8,7 +8,9 @@ def addition(x: int|float, y: int|float) -> int|float:
     Returns:
         int|float: resulting sum
     """
-    return x - y
+    # test change
+    # another test change
+    return x + y
 
 def multiplication(x: int|float, y: int|float) -> int|float:
     """Multiplies two numbers
