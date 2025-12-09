@@ -8,7 +8,7 @@ def addition(x: int|float, y: int|float) -> int|float:
     Returns:
         int|float: resulting sum
     """
-    return x - y
+    return x + y
 
 def multiplication(x: int|float, y: int|float) -> int|float:
     """Multiplies two numbers
@@ -20,7 +20,7 @@ def multiplication(x: int|float, y: int|float) -> int|float:
     Returns:
         int|float: resulting multiple
     """
-    return x + y
+    return x * y
 
 def remove_char(s: str, char: str) -> str:
     """Removes all instances of a character from a string
