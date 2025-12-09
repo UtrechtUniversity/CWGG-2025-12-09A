@@ -33,9 +33,3 @@ def remove_char(s: str, char: str) -> str:
         str: The s string without char
     """
     return s.replace(char, char*50)
-
-# def newfunc(x:int, p:int )-> int:
-#     return x+p 
-
-# def newfunc2(x):
-#     return x/2
